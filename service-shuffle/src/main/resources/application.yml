@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  application.name: suffle service
+logging.level:
+  com:
+    example:
+      serviceshuffle: DEBUG
+  org:
+    springframework:
+      security: INFO
+service:
+  log:
+    url: http://localhost:8081/log

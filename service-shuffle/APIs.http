@@ -1,0 +1,8 @@
+### Create Shuffle
+POST http://localhost:8080/shuffle
+Accept: application/json
+Content-Type: application/json
+
+{
+  "value": 20022
+}

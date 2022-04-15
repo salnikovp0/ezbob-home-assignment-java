@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  application.name: log service
+logging.level:
+  org:
+    springframework:
+      security: INFO
+logback:
+  access:
+    enabled: true
